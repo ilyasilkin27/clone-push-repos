@@ -12,9 +12,9 @@ const cloneRepos = (userName) => {
     });
 };
 
-const userNames = ['19AnastasiaTsareva20']; // Array containing usernames to replace
+const userNames = []; // Array containing usernames to replace
 
-const interval = 1000; // Interval in milliseconds (1 second)
+const interval = 500; // Interval in milliseconds (1 second)
 
 const rl = readline.createInterface({
     input: process.stdin,
