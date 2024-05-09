@@ -1,6 +1,6 @@
 import { exec } from 'child_process';
 
-const repositories = [];
+const repositories = []; // сюда кидаем уже фулл нейминг репозиториев типа 'userName/repoName1', 'userName/repoName2'
 
 const commitAndPush = (repoName) => {
     const commands = [

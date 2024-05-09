@@ -12,7 +12,7 @@ const cloneRepos = (userName) => {
     });
 };
 
-const userNames = []; // Array containing usernames to replace
+const userNames = []; // сюда кидаем юзернеймы студентов типа, 'userName1', 'userName2'
 
 const interval = 500; // Interval in milliseconds (1 second)
 
